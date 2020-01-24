@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width:100%;
+	height:100vh;
+	background-image: url(img/videobgs-1.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+h2{
+	text-align: center;
+	color: white;
+	width:100%;
+	height:80px;
+	background-color: rgba(0,0,0,0.5);
+	line-height: 80px;
+	text-transform: uppercase;
+	font-size:40px;
+	font-weight : bold;
+}
+.mid{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform : translate(-50%, -50%);
+	background-color: rgba(255,105,180, 0.5);
+	width:100%;
+	height:200px;
+	text-align: center;
+}
+.mid:hover{
+	background-image: linear-gradient(45deg, hotpink, orangered, violet, purple);
+	opacity:0.7;
+}
+.mid h4{
+	color: black;
+	text-transform: uppercase;
+	font-size: 25px;
+	text-shadow: 5px 5px 5px white;
+	font-weight: bold;
+	margin-top: 20px ; 
+
+}
+.mid h6{
+	color : white;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-shadow: 3px 5px 5px black;
+	font-weight: bold;
+	height:50px;
+	line-height: 50px;
+	background-color: rgba(255,0,0,0.5);
+}
+.done a{
+	position:absolute;
+	top:75%;
+	left:50%;
+	transform : translate(-50%, -50%);
+	text-decoration: none;
+	width:250px;
+	height:50px;
+	line-height:40px;
+	border: 3px solid black;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 30px;
+	color:black;
+	text-shadow: 7px 2px 4px red;
+	
+}
+.done a:hover{
+	background-color:rgba(60,162,199,0.69);
+}
